@@ -1,0 +1,290 @@
+body, html {
+  height: 100%; }
+
+#nav {
+  padding-bottom: 80px; }
+
+div ul li a {
+  font-size: 30px;
+  color: black; }
+
+nav a span {
+  font-size: 30px; }
+
+a:hover {
+  color: black !important; }
+
+a {
+  font-family: 'Muli', sans-serif; }
+
+body, main {
+  height: 100%; }
+
+main {
+  padding: 20px 100px 20px 100px;
+  margin: 10px; }
+  main div span {
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px; }
+
+#img {
+  padding: 100px;
+  border: 3px solid black;
+  color: white;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+#text {
+  position: absolute;
+  left: 45%;
+  top: 30%;
+  transform: translate(-30%, -45%); }
+
+.container-home {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px; }
+
+.item {
+  height: 40%;
+  width: 500px;
+  border: 3px solid black;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px grey; }
+  .item a {
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+    color: inherit;
+    text-decoration: none; }
+
+@keyframes hover_animation {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: 0.3; }
+  50% {
+    opacity: 0.6; }
+  75% {
+    opacity: 0.9; }
+  100% {
+    opacity: 1; } }
+.item:hover {
+  background-color: black;
+  color: white; }
+  .item:hover a {
+    text-decoration: none;
+    color: white !important;
+    animation: hover_animation;
+    animation-duration: 1s; }
+
+.title {
+  text-align: left; }
+  .title span {
+    font-size: 250px;
+    color: black; }
+
+.white_strip {
+  background-color: black;
+  bottom: 12.5%;
+  position: relative; }
+
+.pr .container-fluid .row .col {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  padding: 20px; }
+  .pr .container-fluid .row .col span {
+    font-size: 120px; }
+  .pr .container-fluid .row .col div {
+    padding: 20px;
+    text-align: left; }
+
+.logo {
+  background: black;
+  color: white;
+  padding-left: 150px !important; }
+
+#summation {
+  background-color: black;
+  color: white; }
+  #summation .logo {
+    background: white;
+    color: black; }
+
+#link {
+  background-color: black;
+  color: white; }
+  #link .container .row {
+    padding: 50px; }
+    #link .container .row span {
+      font-size: 40px; }
+    #link .container .row .col {
+      background-color: white;
+      color: red;
+      border: 4px solid black;
+      padding: 40px;
+      margin-top: 10px;
+      font-family: 'Source Code Pro', monospace;
+      font-size: 30px;
+      font-weight: 500; }
+      #link .container .row .col a {
+        color: red; }
+
+#song-list .container .row, #books .container .row, #shows .container .row, #slist .container .row {
+  padding: 10px;
+  margin: 5px;
+  font-size: 25px;
+  font-weight: 500; }
+  #song-list .container .row .col, #books .container .row .col, #shows .container .row .col, #slist .container .row .col {
+    text-align: center;
+    padding: 10px;
+    margin: 10px; }
+    #song-list .container .row .col div, #books .container .row .col div, #shows .container .row .col div, #slist .container .row .col div {
+      text-align: left; }
+
+#slist .container .row {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+  #slist .container .row .col {
+    font-weight: 600;
+    padding: 40px;
+    margin: 10px;
+    border: 2px black solid; }
+    #slist .container .row .col p {
+      font-size: 20px;
+      font-weight: 400; }
+  #slist .container .row .col:hover {
+    background-color: black;
+    color: white; }
+
+#about .container {
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  #about .container .row {
+    font-size: 20px;
+    font-weight: 500; }
+    #about .container .row img {
+      max-width: 480px;
+      padding: 20px; }
+    #about .container .row div .col {
+      padding: 10px;
+      margin: 10px;
+      text-align: center; }
+      #about .container .row div .col a {
+        color: inherit; }
+
+.carousel {
+  border: 2px solid black;
+  margin: 50px; }
+
+.carousel-inner {
+  text-align: center !important; }
+  .carousel-inner .carousel-item img {
+    max-height: 600px; }
+
+#ps {
+  font-size: 18px; }
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+  background-color: black;
+  opacity: 0.02; }
+
+@media screen and (max-width: 768px) {
+  div ul li a {
+    font-size: 20px;
+    color: black; }
+
+  nav a span {
+    font-size: 20px; }
+
+  #nav {
+    padding-bottom: 60px; }
+
+  #img {
+    padding: 20px; }
+
+  main {
+    padding: 0px;
+    margin: 10px; }
+    main div span {
+      font-size: 30px; }
+
+  .item a {
+    font-size: 20px; }
+
+  .title {
+    text-align: center; }
+    .title span {
+      font-size: 100px; }
+
+  .white_strip {
+    background-color: black;
+    bottom: 10%;
+    height: 0px;
+    position: relative; }
+
+  .pr .container-fluid .row .col {
+    font-size: 18px;
+    padding: 5px; }
+    .pr .container-fluid .row .col span {
+      font-size: 60px; }
+    .pr .container-fluid .row .col h1, .pr .container-fluid .row .col h3 {
+      font-size: 15px; }
+
+  .logo {
+    padding-left: 18px !important; }
+
+  #summation {
+    background-color: white;
+    color: black; }
+    #summation .logo {
+      background: black;
+      color: white; }
+
+  #link .container .row {
+    padding: 20px; }
+    #link .container .row span {
+      font-size: 25px; }
+    #link .container .row h5 {
+      font-size: 15px; }
+    #link .container .row .col {
+      font-size: 16px;
+      padding: 10px; }
+
+  #song-list .container .row, #books .container .row, #shows .container .row {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px; }
+
+  #about .container .row {
+    padding: 0px 20px 0px 20px;
+    font-size: 16px; }
+    #about .container .row img {
+      max-width: 300px; }
+
+  .carousel {
+    margin: 0px;
+    margin-bottom: 20px;
+    max-width: 360px;
+    max-height: 400px; }
+
+  .carousel-inner {
+    text-align: center !important; }
+    .carousel-inner .carousel-item img {
+      max-height: 300px;
+      max-width: 300px; }
+
+  #ps {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=style.css.map */
