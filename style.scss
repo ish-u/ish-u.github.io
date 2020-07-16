@@ -2,13 +2,13 @@ body,html{
   height: 100%;
 }
 #nav{
-  padding-bottom:80px;
+  padding-bottom:50px;
 }
 div{
   ul{
     li{
       a{
-        font-size: 30px;
+        font-size: 22px;
         color: black;
       }
     }
@@ -18,11 +18,15 @@ div{
 nav{
   a{
     span{
-      font-size: 30px;
+      font-size: 24px;
     }
   }
 }
 
+.dropdown-item
+{
+  font-size: 20px;
+}
 a:hover{
   color: black !important;
 }
@@ -218,10 +222,6 @@ main{
         padding: 40px;
         margin: 10px;
         border: 2px black solid;
-      }
-      .col:hover{
-        background-color: black;
-        color:white;
       }
     }
   }

@@ -2,14 +2,17 @@ body, html {
   height: 100%; }
 
 #nav {
-  padding-bottom: 80px; }
+  padding-bottom: 50px; }
 
 div ul li a {
-  font-size: 30px;
+  font-size: 22px;
   color: black; }
 
 nav a span {
-  font-size: 30px; }
+  font-size: 24px; }
+
+.dropdown-item {
+  font-size: 20px; }
 
 a:hover {
   color: black !important; }
@@ -163,9 +166,6 @@ main {
     #slist .container .row .col p {
       font-size: 20px;
       font-weight: 400; }
-  #slist .container .row .col:hover {
-    background-color: black;
-    color: white; }
 
 #about .container {
   margin-bottom: 20px;
