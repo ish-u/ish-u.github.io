@@ -115,10 +115,10 @@ main {
   color: white;
   padding-left: 150px !important; }
 
-#summation {
+#summation, #flack {
   background-color: black;
   color: white; }
-  #summation .logo {
+  #summation .logo, #flack .logo {
     background: white;
     color: black; }
 
@@ -234,20 +234,20 @@ main {
     position: relative; }
 
   .pr .container-fluid .row .col {
-    font-size: 18px;
-    padding: 5px; }
+    font-size: 18px; }
     .pr .container-fluid .row .col span {
-      font-size: 60px; }
+      font-size: 60px;
+      padding: 10px; }
     .pr .container-fluid .row .col h1, .pr .container-fluid .row .col h3 {
       font-size: 15px; }
 
   .logo {
     padding-left: 18px !important; }
 
-  #summation {
+  #summation, #flack {
     background-color: white;
     color: black; }
-    #summation .logo {
+    #summation .logo, #flack .logo {
       background: black;
       color: white; }
 

@@ -151,7 +151,7 @@ main{
 
 }
 
-#summation{
+#summation,#flack{
   background-color: black;
   color:white;
   .logo{
@@ -339,9 +339,9 @@ main{
       .row{
         .col{
           font-size:18px;
-          padding:5px;
           span{
-            font-size:60px ;
+            font-size:60px;
+            padding: 10px;
           }
           h1,h3{
             font-size: 15px;
@@ -354,7 +354,7 @@ main{
   .logo{
     padding-left: 18px !important;
   }
-  #summation{
+  #summation,#flack{
     background-color: white;
     color:black;
     .logo{
