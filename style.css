@@ -15,7 +15,7 @@ nav a span {
   font-size: 20px; }
 
 a:hover {
-  color: black !important; }
+  color: salmon !important; }
 
 a {
   font-family: 'Muli', sans-serif; }
@@ -105,7 +105,7 @@ main {
   text-align: left;
   padding: 20px; }
   .pr .container-fluid .row .col span {
-    font-size: 120px; }
+    font-size: 100px; }
   .pr .container-fluid .row .col div {
     padding: 20px;
     text-align: left; }
@@ -115,10 +115,10 @@ main {
   color: white;
   padding-left: 150px !important; }
 
-#summation, #flack {
+#summation, #flack, #codeflix {
   background-color: black;
   color: white; }
-  #summation .logo, #flack .logo {
+  #summation .logo, #flack .logo, #codeflix .logo {
     background: white;
     color: black; }
 
@@ -244,10 +244,10 @@ main {
   .logo {
     padding-left: 18px !important; }
 
-  #summation, #flack {
+  #summation, #flack, #codeflix {
     background-color: white;
     color: black; }
-    #summation .logo, #flack .logo {
+    #summation .logo, #flack .logo, #codeflix .logo {
       background: black;
       color: white; }
 

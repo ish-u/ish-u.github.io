@@ -28,7 +28,7 @@ nav{
   font-size: 20px;
 }
 a:hover{
-  color: black !important;
+  color: salmon !important;
 }
 
 a{
@@ -133,7 +133,7 @@ main{
         text-align:left;
         padding: 20px;
         span{
-          font-size: 120px;
+          font-size: 100px;
         }
         div{
           padding: 20px;
@@ -151,7 +151,7 @@ main{
 
 }
 
-#summation,#flack{
+#summation,#flack,#codeflix{
   background-color: black;
   color:white;
   .logo{
@@ -354,7 +354,7 @@ main{
   .logo{
     padding-left: 18px !important;
   }
-  #summation,#flack{
+  #summation,#flack,#codeflix{
     background-color: white;
     color:black;
     .logo{
